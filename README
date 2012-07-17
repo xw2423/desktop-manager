@@ -1,0 +1,8 @@
+DesktopManger manage a Container as desktop.
+
+The children of Container wanted to be managed must implement IDesktopIcon interface
+
+The children implemented IDesktopIcon can be selected,dragged as icon in desktop
+
+usage:
+DesktopManager.addPlatform(platform:Container);
